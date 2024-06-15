@@ -1,18 +1,22 @@
-function App() {
+import Header from './components/Header.jsx';
+import WayToTeach from './components/WayToTeach.jsx';
+import { ways } from './data.js';
+
+export default function App() {
   return (
     <div>
-      <header>
-        <h3>Header</h3>
-        <span>
-          <a href="#">Home</a>
-        </span>
-      </header>
-
+      <Header />
       <main>
-        <h1>Hello React</h1>
+        <section>
+          <h3>Main</h3>
+          <ul>
+            {/*<WayToTeach {...ways[0]} />*/}
+            {ways.map((way, index) => (
+              <WayToTeach key={index} {...way} />
+            ))}
+          </ul>
+        </section>
       </main>
     </div>
   );
 }
-
-export default App;
