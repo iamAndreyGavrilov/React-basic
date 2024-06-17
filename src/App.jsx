@@ -18,7 +18,6 @@ export default function App() {
         <section>
           <h3>Main</h3>
           <ul>
-            {/*<WayToTeach {...ways[0]} />*/}
             {ways.map((way, index) => (
               <WayToTeach key={index} {...way} />
             ))}
