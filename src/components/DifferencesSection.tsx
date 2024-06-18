@@ -3,7 +3,7 @@ import { differences } from '../data';
 
 import { useState } from 'react';
 
-export default function SectionActions() {
+export default function DifferencesSection() {
   const [contentType, setContentType] = useState(null);
 
   function handleClick(type) {

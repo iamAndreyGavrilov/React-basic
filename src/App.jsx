@@ -1,6 +1,6 @@
 import Header from './components/Header';
 import TeachingSection from './components/TeachingSection';
-import SectionActions from './components/SectionActions';
+import DifferencesSection from './components/DifferencesSection';
 
 export default function App() {
   return (
@@ -8,7 +8,7 @@ export default function App() {
       <Header />
       <main>
         <TeachingSection />
-        <SectionActions />
+        <DifferencesSection />
       </main>
     </div>
   );
