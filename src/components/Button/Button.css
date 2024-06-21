@@ -1,18 +1,24 @@
 .button {
-    padding: 0.8rem 2rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s;
-    font-weight: bold;
-    margin-right: 1rem;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: bold;
+  margin-right: 1rem;
 }
 
 .button:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 .button.active {
-    background:cornflowerblue;
-    color: #fafafa;
+  background: cornflowerblue;
+  color: #fafafa;
+}
+
+.button:disabled {
+  background: #ccc;
+  color: #666;
+  cursor: not-allowed;
 }

@@ -10,8 +10,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-
-
 main {
   max-width: 850px;
   margin: 0 auto;
@@ -42,4 +40,12 @@ p {
 .centered {
   display: flex;
   justify-content: center;
+}
+
+.control {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
 }
